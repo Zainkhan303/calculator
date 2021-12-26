@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="371dp"
+        android:layout_height="132dp"
+        android:layout_margin="5dp"
+        app:srcCompat="@drawable/calculator" />
+
+    <EditText
+        android:id="@+id/Firstvalue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="@string/enter_first_value"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingTop="20dp" />
+
+    <EditText
+        android:id="@+id/Secondvalue1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="@string/enter_the_second_value"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingTop="20dp" />
+
+    <TextView
+        android:id="@+id/tdans"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:paddingTop="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:paddingTop="26dp"
+        android:text="@string/addition"
+        android:textColor="#161717"
+        android:textCursorDrawable="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#1AAF5D"
+        app:iconPadding="20dp" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:paddingTop="20dp"
+        android:text="Subtraction"
+        android:textColor="#161717"
+        android:textCursorDrawable="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#1AAF5D"
+        app:iconPadding="20dp" />
+
+    <Button
+        android:id="@+id/mul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:paddingTop="20dp"
+        android:text="MultiPlication"
+        android:textColor="#161717"
+        android:textCursorDrawable="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#1AAF5D"
+        app:iconPadding="20dp" />
+
+    <Button
+        android:id="@+id/devision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:paddingTop="20dp"
+        android:shadowColor="#E92E9191"
+        android:text="Devision "
+        android:textColor="#161717"
+        android:textCursorDrawable="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#1AAF5D"
+        app:iconPadding="20dp" />
+
+</LinearLayout>
